@@ -1,0 +1,37 @@
+{
+  "name": "c2p-welcomebot",
+  "version": "1.0.0",
+  "description": "🤖 C2P-WelcomeBot est un assistant intelligent pour WhatsApp qui souhaite la bienvenue aux nouveaux membres de la communauté C 1er Pas, les invite à se présenter et répond aux questions. Idéal pour créer un esprit d'équipe, encourager l’engagement et faciliter l'apprentissage collaboratif.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paskod121/C2P-WelcomeBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Paskod121/C2P-WelcomeBot/issues"
+  },
+  "homepage": "https://github.com/Paskod121/C2P-WelcomeBot#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "n8n-core": "^1.14.1",
+    "node-cron": "^4.0.5",
+    "nodemon": "^3.1.10",
+    "qrcode-terminal": "^0.12.0",
+    "redis": "^5.0.1",
+    "twilio": "^5.6.1",
+    "whatsapp-web.js": "^1.28.0",
+    "winston": "^3.17.0"
+  }
+}
