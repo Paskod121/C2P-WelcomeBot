@@ -1,10 +1,11 @@
 {
   "name": "c2p-welcomebot",
   "version": "1.0.0",
-  "description": "🤖 C2P-WelcomeBot est un assistant intelligent pour WhatsApp qui souhaite la bienvenue aux nouveaux membres de la communauté C 1er Pas, les invite à se présenter et répond aux questions. Idéal pour créer un esprit d'équipe, encourager l’engagement et faciliter l'apprentissage collaboratif.",
+  "description": "🤖 C2P-WelcomeBot est un assistant intelligent pour WhatsApp qui souhaite la bienvenue aux nouveaux membres de la communauté C 1er Pas, les invite à se présenter et répond aux questions. Idéal pour créer un esprit d'équipe, encourager l’engagement et faciliter l'apprentissage collaboratif.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
